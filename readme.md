@@ -1,21 +1,21 @@
 # [LeetCode](https://leetcode.com/) Scaffold and Solutions
 
-Here you will find my [LeetCode](https://leetcode.com/) scaffold with the following base structure:
+Here you will find my [LeetCode](https://leetcode.com/) scaffold. It will hold up your code in times of uncertainty, and it will most certainly drag it down at any other moment... So be weary and have fun with LeetCode in the comfort of your own IDE instead of theirs!
 
 ### What Does it Do Exactly?
 The Scaffold pulls in the text file of the same name as the python file in the package being ran and inserts it into the standard input stream. You need only set `lines_per_input` to however many lines in the text file you need and for each loop in the scaffold `main` function use the `input()` function to get the next item.
 
-### Pretty Printing Solutions for All Your Corporate Needs /s
+### Pretty Printing Solutions for All Your Corporate Needs
 
 In the `main.py` file you can also set the solution to be printed for easier copying of your solution to the site.
 
 ### History is Written by the Victors?
 
-Each solution has a readme that is taken straight from the LeetCode page for it. This is for historical purposes around when I solved the problem in case there are any changes.
-
-### Shut Up and Take my Code!
+It is usually a good idea to keep documentation of the page itself so that if LeetCode decides to change anything you aren't left scratching your head as to why nothing works anymore. I have included an example from one of the daily challenges. When the code is less terrible, I will post up my directory staging code. Until then, it would be wise to grab that information on your own!
 
 ![img.png](img.png)
+
+The following is the structure in case you would rather look at it in an eye watering readme format instead of clicking through the repo...well here it is!
 
 ```python
 class LeetCodeScaffold:
@@ -68,3 +68,29 @@ class Solution(ScaffoldClass.LeetCodeScaffold):
         return -1
 
 ```
+
+# License
+
+Basically, you do you! Write all the code, learn all the LeetCode skills, and go be a great engineer of the software variety!(?)
+
+### MIT License
+
+Copyright (c) 2021 **Cody Dietz / Newyork167**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
